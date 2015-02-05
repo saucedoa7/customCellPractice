@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>86BCBA85-D984-4628-98B2-F7EE8037D3B7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CustomCellPractice</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>267B2EE92E07FAAD9DC48AA7867A0DB9A85FC81B</key>
+		<string>https://github.com/saucedoa7/customCellPractice.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CustomCellPractice.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>267B2EE92E07FAAD9DC48AA7867A0DB9A85FC81B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saucedoa7/customCellPractice.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>267B2EE92E07FAAD9DC48AA7867A0DB9A85FC81B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>267B2EE92E07FAAD9DC48AA7867A0DB9A85FC81B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CustomCellPractice</string>
+		</dict>
+	</array>
+</dict>
+</plist>

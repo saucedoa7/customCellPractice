@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50084FAC1A3A8EAE000ECCF8 /* TeamDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50084FAB1A3A8EAE000ECCF8 /* TeamDetailsViewController.m */; };
 		5026E6701A0DDB540038C8EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5026E66F1A0DDB540038C8EB /* main.m */; };
 		5026E6731A0DDB540038C8EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5026E6721A0DDB540038C8EB /* AppDelegate.m */; };
 		5026E6761A0DDB540038C8EB /* CustomCellPractice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5026E6741A0DDB540038C8EB /* CustomCellPractice.xcdatamodeld */; };
@@ -15,7 +16,6 @@
 		5026E6811A0DDB540038C8EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5026E67F1A0DDB540038C8EB /* LaunchScreen.xib */; };
 		5026E68D1A0DDB550038C8EB /* CustomCellPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5026E68C1A0DDB550038C8EB /* CustomCellPracticeTests.m */; };
 		50A165501A0FEE2200E7BD53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A1654F1A0FEE2200E7BD53 /* Images.xcassets */; };
-		50A165521A10008D00E7BD53 /* TableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A165511A10008D00E7BD53 /* TableCell.xib */; };
 		50A165551A1001FA00E7BD53 /* CutomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A165541A1001FA00E7BD53 /* CutomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50084FAA1A3A8EAE000ECCF8 /* TeamDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailsViewController.h; sourceTree = "<group>"; };
+		50084FAB1A3A8EAE000ECCF8 /* TeamDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailsViewController.m; sourceTree = "<group>"; };
 		5026E66A1A0DDB540038C8EB /* CustomCellPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5026E66E1A0DDB540038C8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5026E66F1A0DDB540038C8EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,7 +46,6 @@
 		5026E68B1A0DDB550038C8EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5026E68C1A0DDB550038C8EB /* CustomCellPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellPracticeTests.m; sourceTree = "<group>"; };
 		50A1654F1A0FEE2200E7BD53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
-		50A165511A10008D00E7BD53 /* TableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableCell.xib; sourceTree = "<group>"; };
 		50A165531A1001FA00E7BD53 /* CutomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutomTableViewCell.h; sourceTree = "<group>"; };
 		50A165541A1001FA00E7BD53 /* CutomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,7 +71,6 @@
 		501B28B61A15B4B3003B9C3B /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				50A165511A10008D00E7BD53 /* TableCell.xib */,
 				50A165531A1001FA00E7BD53 /* CutomTableViewCell.h */,
 				50A165541A1001FA00E7BD53 /* CutomTableViewCell.m */,
 			);
@@ -101,6 +101,8 @@
 				5026E6771A0DDB540038C8EB /* ViewController.h */,
 				5026E6781A0DDB540038C8EB /* ViewController.m */,
 				5026E67A1A0DDB540038C8EB /* Main.storyboard */,
+				50084FAA1A3A8EAE000ECCF8 /* TeamDetailsViewController.h */,
+				50084FAB1A3A8EAE000ECCF8 /* TeamDetailsViewController.m */,
 				50A1654F1A0FEE2200E7BD53 /* Images.xcassets */,
 				501B28B61A15B4B3003B9C3B /* CustomCell */,
 				5026E66D1A0DDB540038C8EB /* Supporting Files */,
@@ -221,7 +223,6 @@
 			files = (
 				50A165501A0FEE2200E7BD53 /* Images.xcassets in Resources */,
 				5026E67C1A0DDB540038C8EB /* Main.storyboard in Resources */,
-				50A165521A10008D00E7BD53 /* TableCell.xib in Resources */,
 				5026E6811A0DDB540038C8EB /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +245,7 @@
 				5026E6731A0DDB540038C8EB /* AppDelegate.m in Sources */,
 				5026E6791A0DDB540038C8EB /* ViewController.m in Sources */,
 				50A165551A1001FA00E7BD53 /* CutomTableViewCell.m in Sources */,
+				50084FAC1A3A8EAE000ECCF8 /* TeamDetailsViewController.m in Sources */,
 				5026E6701A0DDB540038C8EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
